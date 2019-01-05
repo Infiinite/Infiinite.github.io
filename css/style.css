@@ -91,6 +91,12 @@ p#lorem{
    display:inline-block;
  }
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
@@ -115,7 +121,7 @@ p#lorem{
 
  .column {
     float: left;
-    width: 33%%;
+    width: 33%;
     padding: 5px;
 }
 
